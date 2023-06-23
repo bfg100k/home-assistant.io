@@ -156,6 +156,7 @@ This is because the Google Assistant device will connect directly to the IP of y
 
 For secure remote access, use a reverse proxy such as the {% my supervisor_addon addon="core_nginx_proxy" title="NGINX SSL" %} add-on instead of directing external traffic straight to Home Assistant.
 
+Do **not** use any special characters in the name of your Home Assistant instance (Settings --> System --> General --> Name).
 </div>
 
 1. Open the project you created in the [Actions on Google console](https://console.actions.google.com/).
